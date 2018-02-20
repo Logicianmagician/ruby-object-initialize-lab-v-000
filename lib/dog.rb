@@ -2,7 +2,7 @@ class Dog
 
 def initialize(name, breed)
   @name = name
-  @breed = breed
+  @breed = breed unless !breeds.(" ")
 end
 
 def name(name)
